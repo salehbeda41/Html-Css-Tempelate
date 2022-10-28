@@ -1,0 +1,151 @@
+* {
+    margin: 0%;
+}
+
+header {
+    background-color: whitesmoke;
+    padding-left: 7%;
+    padding-right: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#logo {
+    height: 30px;
+    padding: 6px;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+.headLins {
+    padding: 20px;
+    display: flex;
+    width: 70px;
+}
+
+#Links {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    width: 400px;
+}
+
+#home {
+    color: aqua;
+}
+
+a:hover {
+    color: burlywood;
+}
+
+#logo:hover {
+    opacity: 90%;
+}
+
+#home:hover {
+    font-size: larger;
+    opacity: 70%;
+}
+
+#mainBody {
+    background-image: url(../img/header.jpg);
+    height: 85vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainBodycontent {
+    transform: translate(-50, -50);
+    color: white;
+    align-items: center;
+}
+
+.mainBodycontent h1 {
+    font-size: 30px;
+}
+
+.mainBodycontent p {
+    font-size: 15px;
+    padding-left: 18%;
+}
+
+.mainBodycontent button {
+    font-size: 18px;
+    height: 40PX;
+    width: 180px;
+    color: white;
+    background-color: rgba(240, 248, 255, 0);
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.mainBodycontent button:hover {
+    background-color: azure;
+    color: gray;
+}
+
+.buttons {
+    padding-left: 50px;
+}
+
+.overlay {
+    margin: 0%;
+    height: 77%;
+    width: 100%;
+    background-color: rgba(51, 50, 50, 0.613);
+    display: flex;
+    justify-content: center;
+    padding-top: 30vh;
+}
+
+#center {
+    height: 70px;
+    background-color: whitesmoke;
+}
+
+#clients {
+    background-color: white;
+    height: 400px;
+    margin-top: 7%;
+}
+
+footer {
+    height: 70px;
+    color: white;
+    background-color: aqua;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+#clients h3 {
+    margin-left: 45%;
+}
+
+#clients p {
+    margin-left: 25%;
+}
+
+#clientsImgs {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+i {
+    color: white;
+    height: min-content;
+    width: min-content;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100px;
+}
